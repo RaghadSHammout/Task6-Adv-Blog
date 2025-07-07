@@ -3,7 +3,7 @@ export default function Footer() {
   return (
     <footer className=" dark:border-gray-700 py-8">
       <div className="max-w-7xl mx-auto px-4">
-        <div className="flex flex-wrap  items-center font-[20px] gap-3.5 text-sm dark:text-white">
+        <div className="flex flex-wrap  items-center font-[20px] gap-3.5 text-sm text-[#C0C5D0]">
           <span>© 2023</span>
           <a
             href="#"

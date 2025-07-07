@@ -1,4 +1,3 @@
-// src/pages/NewsletterPage.tsx
 import { useSelector } from 'react-redux'
 import type { RootState } from '../../store/store'
 import type { Article } from '../../data/articles'
@@ -9,7 +8,7 @@ export default function NewsletterPage() {
   const articles = useSelector((state: RootState) => state.articles) as Article[]
 
   return (
-    <div className="min-h-screen text-gray-900">
+    <div className="max-w-7xl mx-auto min-h-screen text-gray-900">
       <div className="max-w-screen-2xl mx-auto px-4 py-8 space-y-16">
             <NewsLetter centered />
 
